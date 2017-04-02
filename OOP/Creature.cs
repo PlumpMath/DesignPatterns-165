@@ -9,11 +9,16 @@ namespace OOP
     abstract class Creature
     {
         //! Cannot have "abstract" fields
-        string _name 
+        //private string _name;
 
-        int _weight;
+        //private int _weight;
 
-        string _sound;
+        //private string _sound;
+
+        //! Expression properties: new features of C# 7.0
+        //public string Name { get => _name; set => _name = value; }
+        //public int Weight { get => _weight; set => _weight = value; }
+        //public string Sound { get => _sound; set => _sound = value; }
 
 
         //! Abstract member cannot be private

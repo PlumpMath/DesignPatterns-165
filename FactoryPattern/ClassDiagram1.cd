@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FactoryPattern.RealWorld" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.Page" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.SkillPage" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.EducationPage" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.ExperiencePage" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.IntroductionPage" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.ResultsPage" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.ConclusionPage" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.SummaryPage" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.BibliographyPage" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.Document">
+    <Position X="1.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.Resume">
+    <Position X="3" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.Report">
+    <Position X="0.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
