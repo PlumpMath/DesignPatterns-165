@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Factory
+namespace FactoryPattern
 {
     //!? Defination
     //! Define an interface for creating an object, but let subclasses decide which class to instantiate. 
@@ -34,7 +30,7 @@ namespace Factory
             creator[1] = new ConCreteCreatorB();
             foreach (var item in creator)
             {
-                Product product = item.FactoryMethod();
+                var product = item.FactoryMethod();
                 Console.WriteLine(product.GetType().Name);
             }
 

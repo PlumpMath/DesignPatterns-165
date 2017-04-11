@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace FactoryPattern
 {
@@ -51,9 +47,10 @@ namespace FactoryPattern
 
     abstract class Document
     {
-        public Document()
+        protected Document()
         {
-            this.CreatePages();
+            // ReSharper disable once VirtualMemberCallInConstructor
+            CreatePages();
         }
 
         // Factory Method
@@ -61,10 +58,7 @@ namespace FactoryPattern
 
         private List<Page> _pages = new List<Page>();
 
-        public List<Page> Pages
-        {
-            get { return _pages; }
-        }
+        public List<Page> Pages => _pages;
     }
 
     class Resume : Document
@@ -74,18 +68,6 @@ namespace FactoryPattern
             Pages.Add(new SkillPage());
             Pages.Add(new EducationPage());
             Pages.Add(new ExperiencePage());
-        }
-    }
-
-    class Report : Document
-    {
-        public override void CreatePages()
-        {
-            Pages.Add(new IntroductionPage());
-            Pages.Add(new ResultsPage());
-            Pages.Add(new ConclusionPage());
-            Pages.Add(new SummaryPage());
-            Pages.Add(new BibliographyPage());
         }
     }
 }
